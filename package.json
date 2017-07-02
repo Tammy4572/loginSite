@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "loginsite",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.0",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4",
+    "validator": "^7.1.0"
+  },
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

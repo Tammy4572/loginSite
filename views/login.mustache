@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <div>
+    <form class="login-form" method="post" action="/login">
+        <label>User Name:</label><input type="text" name="username">
+        <label>Email:</label><input type="text" name="email">
+        <label>Password:</label><input type="password" name="password">
+        
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    <div class="signup-btn">
+        <input type="button" onclick="location.href='/signup';" value="Don't have a log in? Sign Up Now!" />
+    </div>
+    </div>
+</body>
+</html>
